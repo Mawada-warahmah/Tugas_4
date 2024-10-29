@@ -1,5 +1,15 @@
+@font-face {
+	font-family: 'Apapun';
+	src: url(../font/Bettermilk.otf);
+}
+@font-face {
+	font-family: 'Terserah';
+	src: url(../font/Roter\ Hoody\ Regular\ -\ \(Demo\)\ hanscostudio.com.ttf);
+}
+
 body{
-	font-family: 'IBM Plex Mono', monospace;
+	font-family: 'Apapun';
+	background-color:grey ;
 }
 body, ul{
 	margin: 0;
@@ -7,8 +17,7 @@ body, ul{
 }
 
 h1,h2{
-	font-family: 'Trebuchet MS';
-
+	font-family: 'Terserah';
 }
 
 img{
@@ -17,10 +26,11 @@ img{
 	max-height: 70%;
 }
 nav{
-	background-color: #5588df;
+	background-color: #a8b2c5;
 	position: fixed;
 	z-index: 1;
 	width: 100%;
+	font-size: 20px;
 }
 header{
 	top:70px;
@@ -107,7 +117,7 @@ figcaption{
 }
 
 .blue{
-	background-color: #DBEBF4;
+	background-color:  #a8b2c5;
 }
 
 .project .button{
@@ -116,6 +126,7 @@ figcaption{
 footer{
 	text-align: center;
 	margin:100px;
+	background-color: #a8b2c5;
 
 }
 footer h2{
